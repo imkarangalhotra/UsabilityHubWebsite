@@ -170,25 +170,40 @@ header{
 }
 
 /* features section */
+.features-section{
+    padding: 80px var(--padding-inline-section) 0;
+    background-image: url(./assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 .headerFeature{
      position: relative;
-    /* margin-block: 40px;
-    padding: 40px; */
-    /* justify-content: center; */
-    align-items: center;
+     text-align: center;
+    
 }
 .featureHeadingOne{
     color:var(--primary-text-color)
     
-
 }
 
-.headerFeature {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+.features{
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap: 40px;
 }
-.headerFeature:a{
-    align-items: center;
+.featurelogo{
+    height: 45px;
+}
+
+.featureCards{
+   flex-direction: column;
+   gap: 20px;
+   max-width: 30%; 
+   margin-top: 30px;
+}
+.featureDescrip{
+    text-align: center;
 }
 
